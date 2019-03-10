@@ -1,43 +1,85 @@
-.jumbotron {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+html body {
+  color: #5E5652;
+  font-family: 'Raleway', sans-serif; !important
+  background-image: background-image: url("img/pattern.jpg"); !important
+  background-color: pink; !important
+  }
+  body .navbar {
+    font-size: 30px;
+  }
+.btn {
+  font-family: 'Srisakdi', cursive; !important
+}
+.btn-secondary, .btn-primary {
+  color: 	#5E5652; !important
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: 	#5E5652; !important
+  }
+  .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: 	#5E5652; !important
+  }
+  .navbar {
+    font-family: 'Srisakdi', cursive; !important
+  }
+  .jumbotron {
+  /*background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
   /*background-color: #e3ffe7;*/
-  /*background-image: url("img/img7.jpg");
-  background-size: cover;*/
-  background-position: 0% 35%;
+  background-image: url("img/pink-mountains.jpg");
+  background-size: cover;
+  background-position-y: center;
   text-align: center;
   margin-bottom: 0px;
   border-bottom: solid #7CBFAD 50px;
   border-radius: 0;
 }
+.textjumbo{
+  text-align: center;
+  color: 	#5E5652;
+  font-weight: bold;
+}
 .display-3 {
   margin-top: 65px;
-  color: #F2969B;
-}
-#column1 h2 {
-  margin-top: 20px;
-  margin-left: 30px;
-  text-align: center;
-}
-#column1 li {
-  font-size: 25px;
-}
-#column1 {
-  border-right: 5px solid #F2969B;
-  border-top: 5px solid #F2969B;
-  background-image: url("img/cardboard.png");
-}
-#column2 {
-  border-top: 5px solid #F2969B;
-  background-image: url("img/cardboard.png");
-}
-#column2 h2 {
-  margin-top: 20px;
-  margin-left: 30px;
-  text-align: center;
+  font-family: 'Srisakdi', cursive;
+  font-weight: 700;
+  /*color: #F2969B;*/
 }
 a {
   color:#5a5a5a;
 }
 a:hover {
   color:#F2969B;
+}
+.w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom {
+  display: block;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+/*  background-color: #78C2AD; !important;
+}*/
+#footer  {
+  background-color: #78C2AD;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 100%
+}
+
+#btn-previous {
+  margin-left: 16px; !important
+}
+footer p {
+  text-align: center;
+}
+b, strong {
+  font-family: 'Srisakdi', cursive; !important
+}
+.w3-container h4 {
+  font-family: 'Srisakdi', cursive; !important
+}
+.w3-tag {
+  background-color: #78C2AD !important
+}
+.w3-badge
+{
+  background-color: #78C2AD !important
 }
